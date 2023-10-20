@@ -5,7 +5,7 @@ You can use [adr-tools](https://github.com/npryce/adr-tools) for managing the AD
 
 In each ADR file, write these sections:
 
-# Title ADR-0001 Personas
+# Title ADR-001 Personas
 
 ## Context
 
@@ -13,8 +13,9 @@ We have to make personas
 
 ## Decision
 
-There is many persona templates to choose from, the decision was made to follow the SHUDEV process for personas. 
+There are many ways to present personas such as paragraphs, pure images, pure sliders etc but the decision was made to follow the SHUDEV process. 
 
 ## Consequences
 
-Makes it easier to visualise users needs and map user stories to characters
+Makes it easier to link users needs such as accessibility requirements to user stories and looks cleaner when presented as it is visualised.
+------------------------------------------------------------------------------
