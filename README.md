@@ -48,3 +48,7 @@ There are a multitude of architectural styles available, each with their benefit
 
 DDA (Domain Driven Architecture) supports my functional and non functional requirements as it isolates aspects of the system which allows domains and sub domains to be upgraded and scaled when necessary. 
 ------------------------------------------------------------------------------
+
+DO WHAT TOOL USED FOR PERSONAS AND WIREFRAMES
+WHAT WAY TO STORE DATA, IF IM CLEANING JSON FROM 3RD PARTY AND STORING FILES IN AWS S3
+
