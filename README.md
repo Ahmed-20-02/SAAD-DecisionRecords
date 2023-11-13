@@ -42,13 +42,38 @@ An architectural style must be chosen to develop this project in
 
 ## Decision
 
-There are a multitude of architectural styles available, each with their benefits and drawbacks. The chosen style is Domain Driven. 
+There are a multitude of architectural styles available such as Microkernel, MVC, Event Driven and Domain Driven, each with their benefits and drawbacks. The chosen style is Domain Driven.
 
 ## Consequences
 
 DDA (Domain Driven Architecture) supports my functional and non functional requirements as it isolates aspects of the system which allows domains and sub domains to be upgraded and scaled when necessary. 
 ------------------------------------------------------------------------------
+# Title ADR-004 Wireframes
 
-DO WHAT TOOL USED FOR PERSONAS AND WIREFRAMES
-WHAT WAY TO STORE DATA, IF IM CLEANING JSON FROM 3RD PARTY AND STORING FILES IN AWS S3
+## Context
 
+Wireframes need to be developed.
+
+## Decision
+
+The choice was from the following design software, Figma, Lucid Chart, Draw.io and Mockplus. I didnt choose Figma due to previous difficulties, Lucid Chart and Draw.io are great for diagrams and such which left me to use Mockplus. 
+
+## Consequences
+
+Mockplus provides great templates to start off with and also provides ratios for different views. It also provides useful icons and drag and dropable components. It also features interactions between components to mock sequences.
+------------------------------------------------------------------------------
+
+# Title ADR-005 Database 
+
+## Context
+
+A choice between relational and non relational databases.
+
+## Decision
+
+A relational database is more relevant to this visa application.
+
+## Consequences
+
+A relational database will provide consistency in my application due to the structured data whereas a non relational one can cause issues due to how varied the data can be presented as. Relational databases also comply with ACID, this makes the data more secure and have integrity. Non relational databases are more lenient when complying with ACID which isnt a risk worth taking when dealing with sensitive data such as the data in a visa application. 
+------------------------------------------------------------------------------
