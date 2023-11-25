@@ -42,11 +42,11 @@ An architectural style must be chosen to develop this project in
 
 ## Decision
 
-There are a multitude of architectural styles available such as Microkernel, MVC, Event Driven and Domain Driven, each with their benefits and drawbacks. The chosen style is Domain Driven.
+There are a multitude of architectural styles available such as Microkernel, MVC, Event Driven, Domain Driven and layered, each with their benefits and drawbacks. The chosen style is Layered.
 
 ## Consequences
 
-DDA (Domain Driven Architecture) supports my functional and non functional requirements as it isolates aspects of the system which allows domains and sub domains to be upgraded and scaled when necessary. 
+Layered architecture supports my functional and non functional requirements as it isolates aspects of the system which allows a separation of concerns. This makes it easier to upgrade and scale layers when necessary. This also makes it more SOLID. 
 ------------------------------------------------------------------------------
 # Title ADR-004 Wireframes
 
