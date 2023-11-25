@@ -77,3 +77,19 @@ A relational database is more relevant to this visa application.
 
 A relational database will provide consistency in my application due to the structured data whereas a non relational one can cause issues due to how varied the data can be presented as. Relational databases also comply with ACID, this makes the data more secure and have integrity. Non relational databases are more lenient when complying with ACID which isnt a risk worth taking when dealing with sensitive data such as the data in a visa application. 
 ------------------------------------------------------------------------------
+
+# Title ADR-006 Data Model 
+
+## Context
+
+A choice between ERD and Class Diagram.
+
+## Decision
+
+A Class Diagram reflects my architectural style better, therefore Class Diagram is chosen.
+
+## Consequences
+
+A Class Diagram is the perfect way to demonstrate the plan to use Object Relational Mapping. 
+Specifically LINQ which uses entities to manipulate database data. A class diagram can represent entities in this sense.
+------------------------------------------------------------------------------
