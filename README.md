@@ -16,6 +16,9 @@ Out of two options presented, Michael Nygards template and a template made by Na
 ## Consequences
 
 We are left with a concise set of decisions that have enough information as opposed to a larger document with unecessary headings and such.
+
+## Status
+Accepted
 ------------------------------------------------------------------------------
 
 # Title ADR-002 Personas
@@ -31,6 +34,9 @@ There are many ways to present personas such as paragraphs, pure images, pure sl
 ## Consequences
 
 Makes it easier to link users needs such as accessibility requirements to user stories and looks cleaner when presented as it is visualised.
+
+## Status
+Accepted
 ------------------------------------------------------------------------------
 
 # Title ADR-003 Architectural Styles
@@ -46,6 +52,9 @@ There are a multitude of architectural styles available such as Microkernel, MVC
 ## Consequences
 
 Layered architecture supports my functional and non functional requirements as it isolates aspects of the system which allows a separation of concerns. This makes it easier to upgrade and scale layers when necessary. This also makes it more SOLID. 
+
+## Status
+Accepted
 ------------------------------------------------------------------------------
 # Title ADR-004 Wireframes
 
@@ -60,6 +69,9 @@ The choice was from the following design software, Figma, Lucid Chart, Draw.io a
 ## Consequences
 
 Mockplus provides great templates to start off with and also provides ratios for different views. It also provides useful icons and drag and dropable components. It also features interactions between components to mock sequences.
+
+## Status
+Accepted
 ------------------------------------------------------------------------------
 
 # Title ADR-005 Database 
@@ -75,6 +87,9 @@ A relational database is more relevant to this visa application.
 ## Consequences
 
 A relational database will provide consistency in my application due to the structured data whereas a non relational one can cause issues due to how varied the data can be presented as. Relational databases also comply with ACID, this makes the data more secure and have integrity. Non relational databases are more lenient when complying with ACID which isnt a risk worth taking when dealing with sensitive data such as the data in a visa application. 
+
+## Status
+Accepted
 ------------------------------------------------------------------------------
 
 # Title ADR-006 Data Model 
@@ -91,4 +106,7 @@ A Class Diagram reflects my architectural style better, therefore Class Diagram 
 
 A Class Diagram is the perfect way to demonstrate the plan to use Object Relational Mapping. 
 Specifically LINQ which uses entities to manipulate database data. A class diagram can represent entities in this sense.
+
+## Status
+Accepted
 ------------------------------------------------------------------------------
