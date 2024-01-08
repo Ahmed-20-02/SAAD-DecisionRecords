@@ -1,0 +1,17 @@
+# Title: ADR-006 Data Model 
+
+## Context
+
+A choice between ERD and Class Diagram.
+
+## Decision
+
+A Class Diagram reflects my architectural style better, therefore Class Diagram is chosen.
+
+## Consequences
+
+A Class Diagram is the perfect way to demonstrate the plan to use Object Relational Mapping. 
+Specifically LINQ which uses entities to manipulate database data. A class diagram can represent entities in this sense.
+
+## Status
+Accepted
