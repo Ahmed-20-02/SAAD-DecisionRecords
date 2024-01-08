@@ -3,7 +3,7 @@
 This is the template in [Documenting architecture decisions - Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). 
 https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/locales/en/templates/decision-record-template-by-michael-nygard
 
-# Title ADR-001 Decision Records
+# Title: ADR-001 Decision Records
 
 ## Context
 
@@ -21,7 +21,7 @@ We are left with a concise set of decisions that have enough information as oppo
 Accepted
 ------------------------------------------------------------------------------
 
-# Title ADR-002 Personas
+# Title: ADR-002 Personas
 
 ## Context
 
@@ -39,7 +39,7 @@ Makes it easier to link users needs such as accessibility requirements to user s
 Accepted
 ------------------------------------------------------------------------------
 
-# Title ADR-003 Architectural Styles
+# Title: ADR-003 Architectural Styles
 
 ## Context
 
@@ -56,7 +56,7 @@ Layered architecture supports my functional and non functional requirements as i
 ## Status
 Accepted
 ------------------------------------------------------------------------------
-# Title ADR-004 Wireframes
+# Title: ADR-004 Wireframes
 
 ## Context
 
@@ -74,7 +74,7 @@ Mockplus provides great templates to start off with and also provides ratios for
 Accepted
 ------------------------------------------------------------------------------
 
-# Title ADR-005 Database 
+# Title: ADR-005 Database 
 
 ## Context
 
@@ -92,7 +92,7 @@ A relational database will provide consistency in my application due to the stru
 Accepted
 ------------------------------------------------------------------------------
 
-# Title ADR-006 Data Model 
+# Title: ADR-006 Data Model 
 
 ## Context
 
